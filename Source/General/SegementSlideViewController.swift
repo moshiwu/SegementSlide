@@ -38,6 +38,9 @@ open class SegementSlideViewController: UIViewController {
             return headerHeight
         }
     }
+    
+    public var headerStickyHeightOffset: CGFloat = 0
+    
     public var switcherHeight: CGFloat {
         return switcherView.ssDataSource?.height ?? 44
     }
